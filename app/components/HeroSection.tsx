@@ -4,11 +4,10 @@ export default function HeroSection() {
        <div>
            <div className="hero bg-base-200 min-h-screen">
                <div className="hero-content text-center">
-                   <div className="max-w-md">
-                       <h1 className="text-5xl font-bold">Hello there</h1>
-                       <p className="py-6">
-                           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                           quasi. In deleniti eaque aut repudiandae et a id nisi.
+                   <div className="">
+                       <h1 className="text-md md:text-2xl lg:text-5xl font-bold">Hi I am Tarek Shawky - Frontend Developer </h1>
+                       <p className="py-6 text-md md:text-xl">
+                           I'm Tarek Shawky, a passionate frontend developer specializing in crafting engaging user experiences with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, WordPress, and Elementor plugin.
                        </p>
                        <button className="btn btn-primary">Get Started</button>
                    </div>
