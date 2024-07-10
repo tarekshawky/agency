@@ -12,7 +12,7 @@ export default function About() {
                     About Me
                 </h2>
                 <p className='text-md my-2'>
-                   I'm Tarek Shawky, a passionate frontend developer specializing in crafting engaging user experiences with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, WordPress, and Elementor plugin.
+                   I am Tarek Shawky, a passionate frontend developer specializing in crafting engaging user experiences with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, WordPress, and Elementor plugin.
                 </p>
                     <ul className='flex flex-col gap-2'>
                         <h2 className='text-2xl font-bold text-[#5f687b]'>Services</h2>
