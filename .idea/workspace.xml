@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595fd439-a00c-472a-8dfc-128b974761c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ThemeSwitcher.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hero-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    <list default="true" id="595fd439-a00c-472a-8dfc-128b974761c5" name="Changes" comment="Update Content">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +71,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720510541789</updated>
-      <workItem from="1720510543062" duration="13005000" />
+      <workItem from="1720510543062" duration="14831000" />
+      <workItem from="1720566070400" duration="130000" />
+      <workItem from="1720610209452" duration="3177000" />
     </task>
+    <task id="LOCAL-00001" summary="Add New Component Recent works">
+      <option name="closed" value="true" />
+      <created>1720627538845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720627538845</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add  Component Recent works">
+      <option name="closed" value="true" />
+      <created>1720627554079</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720627554079</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add React icons">
+      <option name="closed" value="true" />
+      <created>1720627593558</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720627593558</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Content">
+      <option name="closed" value="true" />
+      <created>1720627634052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720627634052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add New Component Recent works" />
+    <MESSAGE value="Add  Component Recent works" />
+    <MESSAGE value="Add React icons" />
+    <MESSAGE value="Update Content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Content" />
   </component>
 </project>
