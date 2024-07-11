@@ -5,9 +5,9 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <meta name="google-site-verification" content="QB7w0bIGg_3VBosfpXwaiVc1c0hIxpQ0qRe6DC4Muj8" />
-            {/* Other meta tags */}
-            </Head>
+                    <meta name="google-site-verification" content="QB7w0bIGg_3VBosfpXwaiVc1c0hIxpQ0qRe6DC4Muj8"/>
+                    {/* Other meta tags */}
+                </Head>
             <body>
             <Main />
             <NextScript />
