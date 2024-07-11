@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles/globals.css */
+
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
-    @apply max-w-[1320px] mx-auto px-4 md:px-0
+    @apply max-w-[1320px] mx-auto px-4 xl:px-0
 }
 
 @media (min-width: 1024px) {
     .hero {
-        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 100% 100%, 50% 85%, 0 100%, 0 0);
+        /*clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 100% 100%, 50% 85%, 0 100%, 0 0);*/
+        clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 73%, 100% 85%, 0 100%, 0 72%, 0 0);
+
     }
 }
 @keyframes up-down {
@@ -21,4 +29,32 @@
 }
 .animated-img{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.nav-link{
+    @apply hover:text-primary hover:bg-inherit active:bg-inherit active:text-primary focus:bg-inherit focus:text-primary !important
+}
+
+.skills-bg{
+    @apply bg-base-200 w-[25%] flex flex-col gap-2 justify-center items-center py-8 rounded-2xl hover:bg-primary hover:text-white cursor-pointer
+}
+
+.skills-bg h2{
+    @apply font-bold text-sm xl:text-xl
+}
+
+.card-recent-work{
+    @apply relative
+}
+
+.card-recent-work .recent-work-description{
+    @apply absolute inset-0 w-0 overflow-hidden text-sm text-white bg-[#0000007d] transition-all duration-300;
+}
+
+.card-recent-work:hover .recent-work-description{
+    @apply flex flex-col justify-center gap-2 items-center px-2 text-center w-full
+}
+
+#footer a{
+    @apply hover:scale-150 transition duration-100
 }

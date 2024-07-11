@@ -3,7 +3,7 @@ import { LuShieldCheck } from "react-icons/lu";
 
 export default function About() {
     return (
-        <div className='py-8 container grid grid-col-1 md:grid-cols-2 gap-4 items-center'>
+        <div id='about' className='py-8 container grid grid-col-1 md:grid-cols-2 gap-4 items-center'>
             <div>
                 <Image className='w-full' src='/about.png' alt="About Image" width={500} height={500}/>
             </div>
