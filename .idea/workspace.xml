@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595fd439-a00c-472a-8dfc-128b974761c5" name="Changes" comment="Update Content">
+    <list default="true" id="595fd439-a00c-472a-8dfc-128b974761c5" name="Changes" comment="Fixed width full in mobile screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -54,6 +55,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/page" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -74,6 +79,11 @@
       <workItem from="1720510543062" duration="14831000" />
       <workItem from="1720566070400" duration="130000" />
       <workItem from="1720610209452" duration="3177000" />
+      <workItem from="1720628074021" duration="158000" />
+      <workItem from="1720695131062" duration="4174000" />
+      <workItem from="1720705966024" duration="9469000" />
+      <workItem from="1720865135506" duration="905000" />
+      <workItem from="1720874085325" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="Add New Component Recent works">
       <option name="closed" value="true" />
@@ -107,7 +117,71 @@
       <option name="project" value="LOCAL" />
       <updated>1720627634052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Content">
+      <option name="closed" value="true" />
+      <created>1720628081896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720628081896</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update Content">
+      <option name="closed" value="true" />
+      <created>1720628154721</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720628154721</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add Component Footer And Skills And image">
+      <option name="closed" value="true" />
+      <created>1720714416474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720714416474</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update content">
+      <option name="closed" value="true" />
+      <created>1720714443376</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720714443376</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add meta tag">
+      <option name="closed" value="true" />
+      <created>1720716312467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720716312467</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add meta tag">
+      <option name="closed" value="true" />
+      <created>1720717650060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720717650060</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update meta tag">
+      <option name="closed" value="true" />
+      <created>1720717901173</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720717901173</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed width full in mobile screen">
+      <option name="closed" value="true" />
+      <created>1720865510384</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720865510384</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +192,11 @@
     <MESSAGE value="Add  Component Recent works" />
     <MESSAGE value="Add React icons" />
     <MESSAGE value="Update Content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Content" />
+    <MESSAGE value="Add Component Footer And Skills And image" />
+    <MESSAGE value="Update content" />
+    <MESSAGE value="Add meta tag" />
+    <MESSAGE value="Update meta tag" />
+    <MESSAGE value="Fixed width full in mobile screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed width full in mobile screen" />
   </component>
 </project>
