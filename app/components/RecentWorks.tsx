@@ -6,9 +6,9 @@ import { projects } from '@/data/projects'
 
 export default function RecentWorks() {
   return (
-    <div id="projects" className="py-8 bg-base-200">
+    <div id="projects" className="py-8">
       <div className="flex justify-center">
-        <h2 className="font-bold text-3xl text-[#5f687b]">
+        <h2 className="font-bold text-3xl">
           Last Projects
         </h2>
       </div>

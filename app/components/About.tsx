@@ -8,14 +8,14 @@ export default function About() {
                 <Image className='w-full' src='/about.png' alt="About Image" width={500} height={500}/>
             </div>
             <div>
-                <h2 className='font-bold text-3xl text-[#5f687b]'>
+                <h2 className='font-bold text-3xl'>
                     About Me
                 </h2>
                 <p className='text-md my-2'>
                    I am Tarek Shawky, a passionate frontend developer specializing in crafting engaging user experiences with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, WordPress, and Elementor plugin.
                 </p>
                     <ul className='flex flex-col gap-2'>
-                        <h2 className='text-2xl font-bold text-[#5f687b]'>Services</h2>
+                        <h2 className='text-2xl font-bold'>Services</h2>
                     <li className='flex items-center gap-2'>
                         <LuShieldCheck  className='text-green-950'/>
                         Responsive Website Design

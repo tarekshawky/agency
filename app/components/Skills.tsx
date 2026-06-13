@@ -11,7 +11,7 @@ export default function Skills(){
     return(
         <div id='skills' className='py-8'>
             <div className='flex justify-center'>
-                <h2 className='font-bold text-3xl text-[#5f687b]'>My Skills </h2>
+                <h2 className='font-bold text-3xl'>My Skills </h2>
             </div>
             <div className='container flex items-center justify-center flex-wrap gap-8 mt-8'>
                 <div className='skills-bg'>

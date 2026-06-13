@@ -1,13 +1,15 @@
+import Link from 'next/link';
 import ThemeSwitcher from './ThemeSwitcher';
 export default function Navbar() {
     return (
         <div className="container">
-            <div className="navbar bg-base-100">
+            <div className="navbar shadow-xl">
                 <div className="navbar-start">
-                    <a className="font-bold text-xl cursor-pointer">Tarek<span className='text-primary'>Shawky</span></a>
+                    <Link href="/" className="font-bold text-xls">Tarek<span className='text-primary'>Shawky</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
+                        <Link className='nav-link flex items-center' href="contact">Contact Me</Link>
                         <li><a className='nav-link' href='#about'>About me</a></li>
                         <li><a className='nav-link' href='#projects'>Last Projects</a></li>
                         <li><a className='nav-link' href='#skills'>My Skills</a></li>

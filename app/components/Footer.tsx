@@ -3,9 +3,9 @@ import { SiFreelancer } from "react-icons/si";
 import { FaWhatsapp } from "react-icons/fa";
 export default function Footer(){
     return(
-        <div id='footer' className='bg-base-200'>
+        <div id='footer'>
             <footer className="container footer text-neutral-content items-center p-4">
-                <aside className="grid-flow-col items-center text-[#5f687b]">
+                <aside className="grid-flow-col items-center text-white">
                     <p>Copyright © {new Date().getFullYear()} - All right reserved By <strong>Tarek<span
                         className='text-primary'> Shawky</span></strong></p>
                 </aside>
