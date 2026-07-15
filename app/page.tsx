@@ -1,7 +1,6 @@
 import HeroSection from "./components/HeroSection"
 import About from "./components/About"
 import RecentWorks from "@/app/components/RecentWorks";
-import Skills from "@/app/components/Skills";
 
 export default function Home() {
   return (
@@ -9,7 +8,6 @@ export default function Home() {
         <HeroSection/>
         <About/>
         <RecentWorks/>
-      <Skills/>
     </div>
   );
 }

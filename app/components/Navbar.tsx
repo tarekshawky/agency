@@ -16,14 +16,13 @@ export default function Navbar() {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <Link className='nav-link flex items-center' href="contact">Contact Me</Link>
                         <li><a className='nav-link' href='#about'>About me</a></li>
                         <li><a className='nav-link' href='#projects'>Last Projects</a></li>
-                        <li><a className='nav-link' href='#skills'>My Skills</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a href='#footer' className="btn btn-primary px-8">Contact us</a>
+                <div className="navbar-end gap-3">
+                    <a href='/Tarek-Shawky-CV.pdf' download className="btn btn-outline btn-primary px-6 hidden sm:flex">Download CV</a>
+                    <a href='mailto:tarekshawky2016@gmail.com?subject=Let%27s%20Work%20Together&body=Hi%20Tarek%2C%0D%0A%0D%0AI%27d%20like%20to%20talk%20about...' className="btn btn-primary px-8">Contact me</a>
 
                     <button
                         type="button"
@@ -74,10 +73,9 @@ export default function Navbar() {
                     </button>
                 </div>
                 <ul className="menu flex flex-col gap-1 p-4">
-                    <li><Link className='nav-link' href="contact" onClick={closeMenu}>Contact Me</Link></li>
                     <li><a className='nav-link' href='#about' onClick={closeMenu}>About me</a></li>
                     <li><a className='nav-link' href='#projects' onClick={closeMenu}>Last Projects</a></li>
-                    <li><a className='nav-link' href='#skills' onClick={closeMenu}>My Skills</a></li>
+                    <li><a className='nav-link' href='/Tarek-Shawky-CV.pdf' download onClick={closeMenu}>Download CV</a></li>
                 </ul>
             </aside>
         </div>
