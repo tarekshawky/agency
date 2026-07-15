@@ -55,7 +55,7 @@ const services = [
 "Responsive UI/UX Design",
 ]
 export const metadata: Metadata = {
-title: "Contact | Tarek Shawky",
+title: "Contact",
 description:
 "Tarek Shawky — Web Designer & Developer specialized in Next.js, Shopify, WordPress, React, Tailwind CSS, and modern web applications.",
 keywords: [
@@ -98,7 +98,7 @@ type:
 
 images: [
   {
-    url: "/preview.jpg",
+    url: "/og-image.png",
     width: 1200,
     height: 630,
     alt: "Tarek Shawky Portfolio",
@@ -114,7 +114,7 @@ description:
   "Modern websites with Next.js and Shopify.",
 
 images: [
-  "/preview.jpg",
+  "/og-image.png",
 ],
 },
 robots: {
