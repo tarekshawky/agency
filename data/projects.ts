@@ -35,6 +35,32 @@ export const projects = [
         url: 'https://tarek-shawky-design.netlify.app', // Your portfolio link
         alt: 'Portfolio Dashboard',
       },
-      
+      {
+        id: 5,
+        title: 'OSTA Booking',
+        description:
+          'Built with Next.js and TailwindCSS. OSTA Booking is a sleek HVAC & technical services platform offering online booking for AC repair, maintenance, installation, gas refilling, and duct cleaning with a modern dashboard experience.',
+        image: '/osta-booking.png',
+        url: 'https://osta-booking.vercel.app',
+        alt: 'OSTA Booking website',
+      },
+      {
+        id: 6,
+        title: 'Warehouse Management System',
+        description:
+          'A bilingual (Arabic/English) warehouse management system built with Next.js, featuring secure authentication, inventory tracking, and a clean, modern admin interface.',
+        image: '/system-warehouse.png',
+        url: 'https://system-warehouse.vercel.app/ar/login',
+        alt: 'Warehouse Management System login page',
+      },
+      {
+        id: 7,
+        title: 'Dareè',
+        description:
+          'Dareè is an elegant Arabic e-commerce storefront for modest fashion and abayas, featuring a bilingual shop experience, product catalog, and cart built for a seamless shopping journey.',
+        image: '/daree-eg.png',
+        url: 'https://daree-eg.com',
+        alt: 'Dareè website',
+      },
   ];
   

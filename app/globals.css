@@ -46,17 +46,61 @@ body {
 }
 
 .card-recent-work{
-    @apply relative
+    @apply flex flex-col rounded-2xl overflow-hidden bg-slate-800/60 border border-slate-700 transition-all duration-300 hover:-translate-y-1 hover:border-primary/60 hover:shadow-xl hover:shadow-primary/10
 }
 
-.card-recent-work .recent-work-description{
-    @apply absolute inset-0 w-0 overflow-hidden text-sm text-white bg-[#0000007d] transition-all duration-300;
+.card-recent-work-image{
+    @apply relative w-full aspect-video overflow-hidden
 }
 
-.card-recent-work:hover .recent-work-description{
-    @apply flex flex-col justify-center gap-2 items-center px-2 text-center w-full
+.card-recent-work-image img{
+    @apply transition-transform duration-500
+}
+
+.card-recent-work:hover .card-recent-work-image img{
+    @apply scale-110
+}
+
+.card-recent-work-visit{
+    @apply absolute inset-0 flex items-center justify-center gap-2 bg-[#000000b0] text-white text-sm font-semibold opacity-0 transition-opacity duration-300
+}
+
+.card-recent-work:hover .card-recent-work-visit{
+    @apply opacity-100
+}
+
+.card-recent-work-body{
+    @apply flex flex-col gap-2 p-5
+}
+
+.card-recent-work-body h1{
+    @apply text-lg font-bold text-white
+}
+
+.card-recent-work-body p{
+    @apply text-sm text-gray-400 line-clamp-3
 }
 
 #footer a{
     @apply hover:scale-150 transition duration-100
+}
+
+.mobile-sidebar-overlay{
+    @apply fixed inset-0 bg-black/60 opacity-0 pointer-events-none transition-opacity duration-300 z-40
+}
+
+.mobile-sidebar-overlay-open{
+    @apply opacity-100 pointer-events-auto
+}
+
+.mobile-sidebar{
+    @apply fixed top-0 right-0 h-full w-72 max-w-[80vw] bg-slate-900 border-l border-slate-700 shadow-2xl z-50 translate-x-full transition-transform duration-300 ease-in-out flex flex-col
+}
+
+.mobile-sidebar-open{
+    @apply translate-x-0
+}
+
+.mobile-sidebar .nav-link{
+    @apply block w-full py-2
 }
