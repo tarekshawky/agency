@@ -62,5 +62,14 @@ export const projects = [
         url: 'https://daree-eg.com',
         alt: 'Dareè website',
       },
+      {
+        id: 8,
+        title: 'ShopEG',
+        description:
+          'ShopEG is a modern e-commerce storefront featuring category browsing, product listings with discount badges, and a clean, conversion-focused shopping experience.',
+        image: '/shopeg-ecommerce.png',
+        url: 'https://ecommerce-2-eight.vercel.app',
+        alt: 'ShopEG e-commerce website',
+      },
   ];
   
