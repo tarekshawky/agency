@@ -71,5 +71,14 @@ export const projects = [
         url: 'https://ecommerce-2-eight.vercel.app',
         alt: 'ShopEG e-commerce website',
       },
+      {
+        id: 9,
+        title: 'Business Management Platform',
+        description:
+          'An Arabic SaaS platform (منصة الأعمال) for small and medium businesses to manage customers, sales, and operations in one place — featuring CRM, team roles & permissions, quotes & invoices, task/project boards, and tiered pricing plans.',
+        image: '/sass-business-platform.png',
+        url: 'https://sass-dusky-seven.vercel.app',
+        alt: 'Business Management Platform website',
+      },
   ];
   
