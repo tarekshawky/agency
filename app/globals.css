@@ -70,10 +70,6 @@ body {
     @apply text-sm text-gray-400 line-clamp-3
 }
 
-#footer a{
-    @apply hover:scale-150 transition duration-100
-}
-
 .mobile-sidebar-overlay{
     @apply fixed inset-0 bg-black/60 opacity-0 pointer-events-none transition-opacity duration-300 z-40
 }
@@ -152,4 +148,55 @@ body {
 .hero-tech-icon{
     @apply flex h-14 w-14 items-center justify-center rounded-2xl border border-slate-700 bg-slate-800/60 text-2xl text-gray-300 transition-colors duration-300 hover:text-primary hover:border-primary/60;
     animation: up-down 3s ease-in-out infinite alternate;
+}
+
+.hero-scroll-cue{
+    @apply absolute bottom-8 left-1/2 -translate-x-1/2 h-9 w-6 rounded-full border-2 border-slate-600 flex justify-center pt-2;
+}
+
+.hero-scroll-cue span{
+    @apply h-2 w-1 rounded-full bg-primary;
+    animation: scroll-cue 1.6s ease-in-out infinite;
+}
+
+@keyframes scroll-cue {
+    0% { opacity: 1; transform: translateY(0); }
+    70% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 0; transform: translateY(10px); }
+}
+
+.reveal{
+    @apply opacity-0 translate-y-6 transition-all duration-700 ease-out;
+}
+
+.reveal-visible{
+    @apply opacity-100 translate-y-0;
+}
+
+.navbar-header{
+    @apply sticky top-0 z-30 transition-all duration-300;
+}
+
+.navbar-header-scrolled{
+    @apply bg-[#0a0617]/80 backdrop-blur-md border-b border-slate-800 shadow-lg;
+}
+
+.about-image-frame{
+    @apply relative rounded-2xl overflow-hidden border border-slate-700 bg-slate-800/40 p-2;
+}
+
+.skill-chip{
+    @apply rounded-full border border-slate-700 bg-slate-800/60 px-3 py-1 text-xs font-medium text-gray-300;
+}
+
+.service-item{
+    @apply flex items-center gap-3 rounded-xl border border-slate-700 bg-slate-800/40 px-4 py-3 text-gray-200;
+}
+
+.footer-wrapper{
+    @apply border-t border-slate-800 mt-8;
+}
+
+#footer a{
+    @apply hover:scale-125 transition duration-200
 }

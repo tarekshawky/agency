@@ -14,6 +14,7 @@ import {
     SiClaude,
 } from 'react-icons/si';
 import { FaWhatsapp } from 'react-icons/fa';
+import Reveal from './Reveal';
 
 const ROLES = [
     'Frontend Developer',
@@ -69,54 +70,73 @@ export default function HeroSection() {
             <div className="hero-glow" aria-hidden="true" />
 
             <div className="container relative z-10 flex flex-col items-center gap-6 py-28 text-center">
-                <span className="hero-badge">👋 Hello, I&apos;m Tarek Shawky</span>
+                <Reveal>
+                    <span className="hero-badge">👋 Hello, I&apos;m Tarek Shawky</span>
+                </Reveal>
 
-                <h1 className="hero-title">
-                    Hi, I&apos;m <span className="text-primary">Tarek Shawky</span>
-                    <span className="hero-role">
-                        {typedRole}
-                        <span className="typewriter-cursor" />
-                    </span>
-                </h1>
+                <Reveal delay={100}>
+                    <h1 className="hero-title">
+                        Hi, I&apos;m <span className="text-primary">Tarek Shawky</span>
+                        <span className="hero-role">
+                            {typedRole}
+                            <span className="typewriter-cursor" />
+                        </span>
+                    </h1>
+                </Reveal>
 
-                <p className="max-w-2xl text-md md:text-xl text-gray-300">
-                    Results-driven frontend developer with 4+ years of experience building
-                    responsive, high-performance websites and web apps with Next.js, React,
-                    and TailwindCSS &mdash; delivered 15+ projects with a strong focus on
-                    UI/UX and performance.
-                </p>
+                <Reveal delay={200}>
+                    <p className="max-w-2xl text-md md:text-xl text-gray-300">
+                        Results-driven frontend developer with 4+ years of experience building
+                        responsive, high-performance websites and web apps with Next.js, React,
+                        and TailwindCSS &mdash; delivered 15+ projects with a strong focus on
+                        UI/UX and performance.
+                    </p>
+                </Reveal>
 
-                <div className="hero-pill">
-                    <span className="status-dot" />
-                    Currently working remotely with a <span className="text-primary font-semibold">UAE-based company</span>
-                </div>
+                <Reveal delay={300}>
+                    <div className="hero-pill">
+                        <span className="status-dot" />
+                        Currently working remotely with a <span className="text-primary font-semibold">UAE-based company</span>
+                    </div>
+                </Reveal>
 
-                <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
-                    <a href="/Tarek-Shawky-CV.pdf" download className="btn btn-primary px-8">
-                        Download CV
-                    </a>
-                    <a
-                        href="https://wa.me/201027381528"
-                        target="_blank"
-                        className="btn bg-emerald-600 hover:bg-emerald-700 border-none text-white px-8 gap-2"
-                    >
-                        <FaWhatsapp size={20} />
-                        Chat on WhatsApp
-                    </a>
-                </div>
-
-                <div className="hero-tech-orbit">
-                    {TECH_ICONS.map(({ icon: Icon, label }, i) => (
-                        <div
-                            key={label}
-                            className="hero-tech-icon"
-                            style={{ animationDelay: `${i * 0.3}s` }}
-                            title={label}
+                <Reveal delay={400}>
+                    <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
+                        <a href="/Tarek-Shawky-CV.pdf" download className="btn btn-primary px-8">
+                            Download CV
+                        </a>
+                        <a
+                            href="https://wa.me/201027381528"
+                            target="_blank"
+                            className="btn bg-emerald-600 hover:bg-emerald-700 border-none text-white px-8 gap-2"
                         >
-                            <Icon />
+                            <FaWhatsapp size={20} />
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                </Reveal>
+
+                <Reveal delay={500}>
+                    <div className="flex flex-col items-center gap-4 mt-6">
+                        <span className="text-xs uppercase tracking-widest text-gray-500">Tech I work with</span>
+                        <div className="hero-tech-orbit">
+                            {TECH_ICONS.map(({ icon: Icon, label }, i) => (
+                                <div
+                                    key={label}
+                                    className="hero-tech-icon"
+                                    style={{ animationDelay: `${i * 0.3}s` }}
+                                    title={label}
+                                >
+                                    <Icon />
+                                </div>
+                            ))}
                         </div>
-                    ))}
-                </div>
+                    </div>
+                </Reveal>
+            </div>
+
+            <div className="hero-scroll-cue" aria-hidden="true">
+                <span />
             </div>
         </section>
     );

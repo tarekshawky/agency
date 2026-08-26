@@ -27,15 +27,6 @@ export const projects = [
         alt: 'OSTA Services website',
       },
       {
-        id: 4,
-        title: 'Portfolio Dashboard',
-        description:
-          'A clean and responsive dashboard built entirely with HTML and CSS. Designed to showcase analytics, user stats, and key metrics with modern UI components and intuitive layout.',
-        image: '/dashboard.png', // Add your dashboard screenshot here in /public
-        url: 'https://tarek-shawky-design.netlify.app', // Your portfolio link
-        alt: 'Portfolio Dashboard',
-      },
-      {
         id: 5,
         title: 'OSTA Booking',
         description:
