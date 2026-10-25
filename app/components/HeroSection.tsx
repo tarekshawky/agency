@@ -43,19 +43,24 @@ function useTypewriter(words: string[], typingSpeed = 90, deletingSpeed = 45, pa
 
     useEffect(() => {
         const current = words[index % words.length];
-        let timeout: ReturnType<typeof setTimeout>;
+        let delay: number;
+        let step: () => void;
 
         if (!deleting && text === current) {
-            timeout = setTimeout(() => setDeleting(true), pauseTime);
+            delay = pauseTime;
+            step = () => setDeleting(true);
         } else if (deleting && text === '') {
-            setDeleting(false);
-            setIndex((i) => i + 1);
+            delay = typingSpeed;
+            step = () => {
+                setDeleting(false);
+                setIndex((i) => i + 1);
+            };
         } else {
-            timeout = setTimeout(() => {
-                setText((t) => current.slice(0, deleting ? t.length - 1 : t.length + 1));
-            }, deleting ? deletingSpeed : typingSpeed);
+            delay = deleting ? deletingSpeed : typingSpeed;
+            step = () => setText((t) => current.slice(0, deleting ? t.length - 1 : t.length + 1));
         }
 
+        const timeout = setTimeout(step, delay);
         return () => clearTimeout(timeout);
     }, [text, deleting, index, words, typingSpeed, deletingSpeed, pauseTime]);
 
