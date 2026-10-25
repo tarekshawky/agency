@@ -70,6 +70,14 @@ body {
     @apply text-sm text-gray-400 line-clamp-3
 }
 
+.card-recent-work-tags{
+    @apply flex flex-wrap gap-1.5 mt-1
+}
+
+.card-recent-work-tag{
+    @apply rounded-full border border-slate-700 bg-slate-900/60 px-2 py-0.5 text-[11px] font-medium text-gray-300
+}
+
 .mobile-sidebar-overlay{
     @apply fixed inset-0 bg-black/60 opacity-0 pointer-events-none transition-opacity duration-300 z-40
 }

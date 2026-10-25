@@ -71,5 +71,22 @@ export const projects = [
         url: 'https://sass-dusky-seven.vercel.app',
         alt: 'Business Management Platform website',
       },
+      {
+        id: 10,
+        title: 'Alyashmak — Modest Fashion Store',
+        description:
+          'Quiet-luxury modest fashion store for Egypt, built on Shopify with a custom “Yashmak Quiet Luxury” theme — ivory & taupe palette, COD & InstaPay checkout.',
+        image: '/alyashmak-shop.png',
+        url: 'https://www.alyashmak.shop',
+        alt: 'Alyashmak modest fashion Shopify store',
+        tags: [
+          'Shopify',
+          'Liquid',
+          'HTML5',
+          'CSS3',
+          'JavaScript',
+          'English + Arabic (RTL)',
+        ],
+      },
   ];
   

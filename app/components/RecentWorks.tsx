@@ -52,6 +52,13 @@ export default function RecentWorks() {
                 <div className="card-recent-work-body">
                   <h1>{project.title}</h1>
                   <p>{project.description}</p>
+                  {project.tags && (
+                    <div className="card-recent-work-tags">
+                      {project.tags.map((tag) => (
+                        <span key={tag} className="card-recent-work-tag">{tag}</span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </Link>
             </Reveal>
