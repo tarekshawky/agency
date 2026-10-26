@@ -67,7 +67,7 @@ body {
 }
 
 .card-recent-work-body p{
-    @apply text-sm text-gray-400 line-clamp-3
+    @apply text-sm text-gray-400
 }
 
 .card-recent-work-tags{

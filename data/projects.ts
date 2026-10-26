@@ -18,24 +18,6 @@ export const projects = [
       alt: 'albarzadxb.com',
     },
     {
-        id: 3,
-        title: 'OSTA Services',
-        description:
-        'Built using Next.js, TailwindCSS, and Vercel for deployment. OSTA Services is a trusted provider of home and commercial maintenance across the UAE, offering AC repair, plumbing, painting, smart home solutions, pest control, CCTV installation, car detailing, cleaning, and moving services with 24/7 availability.',
-        image: '/osta-services.png',
-        url: 'https://osta-services-v2.vercel.app/',
-        alt: 'OSTA Services website',
-      },
-      {
-        id: 5,
-        title: 'OSTA Booking',
-        description:
-          'Built with Next.js and TailwindCSS. OSTA Booking is a sleek HVAC & technical services platform offering online booking for AC repair, maintenance, installation, gas refilling, and duct cleaning with a modern dashboard experience.',
-        image: '/osta-booking.png',
-        url: 'https://osta-booking.vercel.app',
-        alt: 'OSTA Booking website',
-      },
-      {
         id: 6,
         title: 'Warehouse Management System',
         description:
@@ -86,6 +68,76 @@ export const projects = [
           'CSS3',
           'JavaScript',
           'English + Arabic (RTL)',
+        ],
+      },
+      {
+        id: 11,
+        title: 'OSTA Services — Website & Online Booking',
+        description:
+          'Bilingual (English/Arabic) website for a UAE AC repair and home-maintenance company. Service pages by city, pricing, blog, annual and commercial maintenance contracts, online booking with customer login, digital invoices and a 14-day warranty, plus cookie consent and WhatsApp chat.',
+        image: '/osta-website.png',
+        url: 'https://osta-invoice-users.vercel.app',
+        alt: 'OSTA Services website and online booking',
+        tags: [
+          'Next.js',
+          'React',
+          'English + Arabic (RTL)',
+          'Online Booking',
+          'Customer Login',
+          'Blog',
+          'WhatsApp Chat',
+        ],
+      },
+      {
+        id: 12,
+        title: 'POSTATO — Human-Powered Advertising Network',
+        description:
+          'Two-sided advertising platform: businesses launch campaigns with their links, content and target area (country, city or Emirate), and real people publish them across Facebook, Instagram, TikTok, X, LinkedIn and WhatsApp. Campaign tracking for clicks and article views, publisher wallet and levels, English/Arabic, dark UI.',
+        image: '/postato.png',
+        url: 'https://postato-v1.vercel.app',
+        alt: 'POSTATO advertising network website',
+        tags: [
+          'Next.js',
+          'React',
+          'English + Arabic (RTL)',
+          'Dark UI',
+          'Campaign Tracking',
+          'Publisher Wallet',
+        ],
+      },
+      {
+        id: 13,
+        title: 'OSTA Services ERP — Live Demo',
+        description:
+          'Interactive demo of a 15-module ERP for a Dubai field-services company: dashboard with revenue by payment method (cash, Ziina, bank transfer), customers, quotations, orders, invoices, expenses, payroll, work reports, warranty certificates, technician cash wallets, vehicle and rental alerts, and financial reports with month/year filters. Sample data only.',
+        image: '/osta-erp-demo.png',
+        url: 'https://osta-services-erp-demo.vercel.app',
+        alt: 'OSTA Services ERP demo dashboard',
+        tags: [
+          'ERP Dashboard',
+          '15 Modules',
+          'Quotes → Invoices',
+          'Payroll',
+          'Cash Wallets',
+          'Sample Data',
+        ],
+      },
+      {
+        id: 14,
+        title: 'OSTA ERP — Case Study',
+        description:
+          'Arabic case study (with English toggle) on designing and building the ERP end to end as a solo developer: the problem, the constraints (UAE 5% VAT stored on each invoice, three payment channels, PIN login for technicians vs full login for the owner), cash-collection wallets, system-wide month/year filtering, and the hardest parts.',
+        image: '/osta-case-study.png',
+        url: 'https://osta-services-case-study.vercel.app',
+        alt: 'OSTA ERP case study page',
+        tags: [
+          'Case Study',
+          'Arabic (RTL) + English',
+          'Next.js',
+          'TypeScript',
+          'Prisma',
+          'PostgreSQL',
+          'Tailwind CSS',
         ],
       },
   ];
